@@ -1,0 +1,33 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Frontend
+node_modules/
+dist/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Local databases and private uploads
+*.db
+*.sqlite
+*.sqlite3
+uploads/
+
+# Operating system
+.DS_Store
+Thumbs.db
